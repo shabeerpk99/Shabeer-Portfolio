@@ -103,7 +103,7 @@ export function Contact() {
                 required 
               />
             </div>
-            <Button type="submit" className="w-full">
+            <Button type="submit" className="w-fit">
               Send Message
             </Button>
           </form>

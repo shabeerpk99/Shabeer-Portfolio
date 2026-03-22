@@ -9,7 +9,7 @@ export function Hero() {
           <div className="inline-block px-4 py-2 font-bold bg-zinc-100 dark:bg-zinc-800 rounded-full text-sm">
             👋 Welcome To My Portfolio
           </div>
-          <h1 className="text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl">
           I'm <span className="text-blue-600 dark:text-blue-400">Shabeer Rehman</span>
           </h1>
           <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-400">

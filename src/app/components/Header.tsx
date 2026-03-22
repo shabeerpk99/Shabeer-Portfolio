@@ -97,7 +97,7 @@ export function Header() {
               <a
                 key={item.label}
                 href={item.href}
-                className="block text-zinc-700 dark:text-zinc-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                className="block text-zinc-700 font-bold dark:text-zinc-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
@@ -119,7 +119,7 @@ export function Header() {
               ))}
             </div>
 
-            <Button className="w-full">Hire Me</Button>
+            <Button className="w-fit">Hire Me</Button>
           </nav>
         )}
       </div>
