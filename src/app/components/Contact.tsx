@@ -27,7 +27,7 @@ export function Contact() {
               <Mail className="size-6 text-blue-600 dark:text-blue-400" />
             </div>
             <h3 className="text-lg mb-2">Email</h3>
-            <p className="text-zinc-600 dark:text-zinc-400">your.email@example.com</p>
+            <p className="text-zinc-600 dark:text-zinc-400">shabeerpk2020@gmail.com</p>
           </Card>
 
           <Card className="p-6 text-center hover:shadow-lg transition-shadow">
@@ -35,7 +35,7 @@ export function Contact() {
               <Phone className="size-6 text-blue-600 dark:text-blue-400" />
             </div>
             <h3 className="text-lg mb-2">Phone</h3>
-            <p className="text-zinc-600 dark:text-zinc-400">+1 (555) 123-4567</p>
+            <p className="text-zinc-600 dark:text-zinc-400">+92 (333) 9045580</p>
           </Card>
 
           <Card className="p-6 text-center hover:shadow-lg transition-shadow">
@@ -43,7 +43,7 @@ export function Contact() {
               <MapPin className="size-6 text-blue-600 dark:text-blue-400" />
             </div>
             <h3 className="text-lg mb-2">Location</h3>
-            <p className="text-zinc-600 dark:text-zinc-400">San Francisco, CA</p>
+            <p className="text-zinc-600 dark:text-zinc-400">Peshawar, Pakistan</p>
           </Card>
         </div>
 
