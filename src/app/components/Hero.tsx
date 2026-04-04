@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-20">
+    <section id="home" className="min-h-screen flex items-center justify-center px-4 py-20">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <div className="inline-block px-4 py-2 font-bold bg-zinc-100 dark:bg-zinc-800 rounded-full text-sm">
@@ -13,7 +13,7 @@ export function Hero() {
           I'm <span className="text-blue-600 dark:text-blue-400">Shabeer Rehman</span>
           </h1>
           <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-400">
-            Frontend Developer & Creative UI / UX Designer
+            Frontend Developer & Digital Creator...!
           </p>
           <p className="text-lg text-zinc-500 dark:text-zinc-500">
             I build exceptional digital experiences that make people's lives easier. 

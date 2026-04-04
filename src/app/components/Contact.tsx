@@ -8,7 +8,7 @@ export function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission
-    alert('Form submitted! (This is a demo - connect to your backend)');
+    alert('Form submitted! (This is a demo - contact on the given details above)');
   };
 
   return (

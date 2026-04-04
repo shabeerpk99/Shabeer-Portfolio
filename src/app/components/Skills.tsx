@@ -5,19 +5,19 @@ export function Skills() {
     {
       category: 'Frontend',
       skills: [
-        { name: 'React / Next.js', level: 95 },
-        { name: 'TypeScript', level: 90 },
+        { name: 'HTML / CSS', level: 98 },
+        { name: 'JavaScript/TypeScript', level: 90 },
+        { name: 'React', level: 100 },
         { name: 'Tailwind CSS', level: 95 },
-        { name: 'HTML / CSS', level: 98 }
       ]
     },
     {
       category: 'Backend',
       skills: [
-        { name: 'Node.js / Express', level: 85 },
-        { name: 'PostgreSQL', level: 80 },
-        { name: 'REST APIs', level: 90 },
-        { name: 'GraphQL', level: 75 }
+        { name: 'Node.js / Express', level: 50 },
+        { name: 'Next.js', level: 50 },
+        { name: 'REST APIs', level: 80 },
+        { name: 'MongoDB', level: 30 }
       ]
     },
     {

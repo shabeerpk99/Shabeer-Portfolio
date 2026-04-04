@@ -38,17 +38,17 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-4">
             <p className="text-lg text-zinc-700 dark:text-zinc-300">
-              I'm a full-stack developer with over 5 years of experience building web applications. 
+              I'm a Frontend developer with 1 year of experience building website, Social Media Clone and web applications. 
               My journey started with a curiosity about how things work on the internet, and it's 
               evolved into a passion for creating seamless digital experiences.
             </p>
             <p className="text-lg text-zinc-700 dark:text-zinc-300">
-              I specialize in React, TypeScript, Node.js, and modern web technologies. When I'm 
+              I specialize in HTML, CSS, React, Javascript/Typescript, Node.js, and modern web technologies. When I'm 
               not coding, you can find me contributing to open-source projects, writing technical 
               articles, or exploring new technologies.
             </p>
             <div className="flex flex-wrap gap-2 pt-4">
-              {['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'Next.js', 'PostgreSQL', 'AWS', 'Docker'].map((skill) => (
+              {['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'Express.js', 'MongoDB', 'Git', 'GitHub', 'Figma', 'Netlify'].map((skill) => (
                 <span 
                   key={skill}
                   className="px-4 py-2 bg-blue-100 dark:bg-blue-900 text-blue-900 dark:text-blue-100 rounded-full text-sm"

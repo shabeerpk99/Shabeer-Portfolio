@@ -6,36 +6,36 @@ import { Badge } from './ui/badge';
 export function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform with cart functionality, payment integration, and admin dashboard. Built with React, Node.js, and PostgreSQL.',
-      image: '/project/project1.jpg',
-      tags: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      github: '#',
-      live: '#'
-    },
-    {
-      title: 'Task Management App',
+      title: 'Task Management Todo App',
       description: 'A modern task management application with real-time collaboration, drag-and-drop interface, and team workflows. Designed for remote teams.',
       image: '/project/project2.jpg',
-      tags: ['TypeScript', 'React', 'Firebase', 'Tailwind'],
-      github: '#',
-      live: '#'
+      tags: ['Javascript', 'React', 'vite', 'Tailwindcss'],
+      github: 'https://github.com/shabeerpk99/todo-app',
+      live: 'https://shabeer-todo.netlify.app/'
     },
     {
-      title: 'Mobile Banking App',
-      description: 'Cross-platform mobile banking application with biometric authentication, transaction history, and budget tracking features.',
+      title: 'Weather App',
+      description: 'A responsive weather application with real-time data, forecasts, and location-based services. Built with React and integrated with a weather API.',
+      image: '/project/project1.jpg',
+      tags: ['Javascript', 'React', 'vite', 'Tailwindcss'],
+      github: 'https://github.com/shabeerpk99/Weather-App',
+      live: 'https://shabeer-weather-app.netlify.app/'
+    },
+    {
+      title: 'E-commerce Website',
+      description: 'A feature-rich e-commerce platform with product management, shopping cart, and secure checkout functionalitA modern, responsive e-commerce website built with React, TypeScript, and Tailwind CSS, featuring a clean and minimal design focused on fashion products.',
       image: '/project/project3.jpg',
-      tags: ['React Native', 'Redux', 'REST API'],
-      github: '#',
-      live: '#'
+      tags: ['Javascript/Typescript', 'React', 'vite', 'Tailwindcss'],
+      github: 'https://github.com/shabeerpk99/E-Commerce-Website',
+      live: 'https://shabeer-e-commerce.netlify.app/'
     },
     {
-      title: 'Developer Portfolio',
-      description: 'A modern, responsive portfolio website showcasing projects and skills. Features dark mode, smooth animations, and optimized performance.',
+      title: 'GroupBuy SEO Tools Dashboard',
+      description: 'A modern, responsive dashboard for managing and analyzing SEO tools for GroupBuy. Features real-time data visualization and performance metrics.',
       image: '/project/project4.jpg',
-      tags: ['React', 'Tailwind CSS', 'Framer Motion'],
-      github: '#',
-      live: '#'
+      tags: ['Javascript/Typescript', 'React', 'vite', 'Tailwindcss'],
+      github: 'https://github.com/shabeerpk99/Groupbuy-Admindashobard',
+      live: 'https://groupbuytools-admin.netlify.app/'
     }
   ];
 
@@ -73,13 +73,17 @@ export function Projects() {
                   ))}
                 </div>
                 <div className="flex gap-3 pt-2">
-                  <Button variant="outline" size="sm" className="gap-2">
-                    <Github className="size-4" />
-                    Code
+                  <Button variant="outline" size="sm" className="gap-2 cursor-pointer" asChild>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="size-4" />
+                      Code
+                    </a>
                   </Button>
-                  <Button size="sm" className="gap-2">
-                    <ExternalLink className="size-4" />
-                    Live Demo
+                  <Button size="sm" className="gap-2 cursor-pointer" asChild>
+                    <a href={project.live} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="size-4" />
+                      Live Demo
+                    </a>
                   </Button>
                 </div>
               </div>

@@ -42,10 +42,11 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800">
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <a href="#" className="text-2xl">
-            <span className="text-blue-600 font-bold dark:text-blue-400">
-              Portfolio
-            </span>
+          {/* Logo */}
+          <a href="#home" className="flex items-center">
+            <div className="w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center justify-center transition-colors">
+              <span className="text-white font-bold text-lg">SR</span>
+            </div>
           </a>
 
           {/* Desktop Navigation */}
@@ -74,7 +75,9 @@ export function Header() {
               ))}
             </div>
 
-            <Button>Hire Me</Button>
+            <Button asChild>
+              <a href="#contact">Hire Me</a>
+            </Button>
           </nav>
 
           {/* Mobile Menu Button */}
