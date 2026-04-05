@@ -48,7 +48,7 @@ export function About() {
               articles, or exploring new technologies.
             </p>
             <div className="flex flex-wrap gap-2 pt-4">
-              {['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'Express.js', 'MongoDB', 'Git', 'GitHub', 'Figma', 'Netlify'].map((skill) => (
+              {['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'Express.js', 'MongoDB', 'Git', 'GitHub', 'Figma', 'Netlify', 'Digital Marketing', 'SEO', 'SMO', 'Content writing', 'Website Audit'].map((skill) => (
                 <span 
                   key={skill}
                   className="px-4 py-2 bg-blue-100 dark:bg-blue-900 text-blue-900 dark:text-blue-100 rounded-full text-sm"
