@@ -11,9 +11,9 @@ export function Projects() {
 .',
       image: '/project/nexus-project.jpg',
       tags: ['Typescript', 'React', 'vite', 'Tailwindcss'],
-      github: 'https://github.com/shabeerpk99/todo-app',
-      live: 'https://nexus-bus.vercel.app/dashboard/entrepreneur'
-      
+      github: 'https://github.com/shabeerpk99/Nexus',
+      live: 'https://nexus-bus.vercel.app/dashboard/entrepreneur',
+      F2F: '123456'      
     },
     {
       title: 'Task Management Todo App',
