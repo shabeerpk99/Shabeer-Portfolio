@@ -7,7 +7,7 @@ export function Projects() {
   const projects = [
     {
       title: 'Business Nexus – Entrepreneur & Investor Platform',
-      description: 'Enhanced an existing business networking platform by implementing production-ready frontend features, including meeting scheduling, video calling, document management with e-signature, payment workflows, role-based dashboards, and secure authentication following scalable architecture and industry-standard frontend development practices.',
+      description: 'Enhanced an existing business networking platform by implementing production-ready frontend features, including meeting scheduling, video calling, document management with e-signature, payment workflows, role-based dashboards, and secure authentication.',
       image: '/project/nexus-project.jpg',
       tags: ['Typescript', 'React', 'vite', 'Tailwindcss'],
       github: 'https://github.com/shabeerpk99/Nexus',
