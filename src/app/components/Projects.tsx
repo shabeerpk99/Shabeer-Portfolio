@@ -9,8 +9,8 @@ export function Projects() {
       title: 'Business Nexus – Entrepreneur & Investor Platform',
       description: 'Enhanced an existing business networking platform by implementing production-ready frontend features, including meeting scheduling, video calling, document management with e-signature, payment workflows, role-based dashboards, and secure authentication.',
       image: '/project/nexus-project.jpg',
-      tags: ['Typescript', 'React', 'vite', 'Tailwindcss'],
-      F2F: '123456',
+      tags: ['Typescript', 'React', 'vite', 'Tailwindcss', 'F2F: 123456'],
+    
       github: 'https://github.com/shabeerpk99/Nexus',
       live: 'https://nexus-bus.vercel.app/dashboard/entrepreneur'  
     },
