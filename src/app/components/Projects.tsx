@@ -6,6 +6,14 @@ import { Badge } from './ui/badge';
 export function Projects() {
   const projects = [
     {
+      title: 'E-Commerece Store Frontend User Interface',
+      description: 'Built a modern, responsive E-Commerce Store Frontend UI using React.js, JavaScript, Vite, and Tailwind CSS. The project features a clean, user-friendly interface, reusable components, responsive layouts, product listings, and modern UI design, following industry best practices and component-based architecture.',
+      image: '/project/main-image.jpg',
+      tags: ['Javascript', 'React', 'vite', 'Tailwindcss'],
+      github: 'https://github.com/shabeerpk99/Nexus',
+      live: 'https://shabeer-store.vercel.app/'  
+    },
+    {
       title: 'Business Nexus – Entrepreneur & Investor Platform',
       description: 'Enhanced an existing business networking platform by implementing production-ready frontend features, including meeting scheduling, video calling, document management with e-signature, payment workflows, role-based dashboards, and secure authentication.',
       image: '/project/nexus-project.jpg',
