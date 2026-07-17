@@ -46,7 +46,7 @@ export function About() {
               I'm committed to writing clean, reusable code, continuously learning new technologies, and building solutions that make a real impact.
             </p>
             <div className="flex flex-wrap gap-2 pt-4">
-              {['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'Express.js', 'MongoDB', 'Git', 'GitHub', 'Figma', 'Netlify', 'Digital Marketing', 'SEO', 'SMO', 'Content writing', 'Website Audit'].map((skill) => (
+              {['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'Express.js', 'MongoDB', 'Git', 'GitHub', 'Figma', 'Netlify', 'Next.js', 'Digital Marketing', 'SEO', 'SMO', 'Content writing', 'Website Audit'].map((skill) => (
                 <span 
                   key={skill}
                   className="px-4 py-2 bg-blue-100 dark:bg-blue-900 text-blue-900 dark:text-blue-100 rounded-full text-sm"
