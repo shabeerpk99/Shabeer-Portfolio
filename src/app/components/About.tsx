@@ -31,21 +31,19 @@ export function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl mb-4">About Me</h2>
           <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">
-            Passionate about creating digital solutions that make a difference
+            Building Modern, Fast & Scalable Web Experiences
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-4">
             <p className="text-lg text-zinc-700 dark:text-zinc-300">
-              I'm a Frontend developer with 1 year of experience building website, Social Media Clone and web applications. 
-              My journey started with a curiosity about how things work on the internet, and it's 
-              evolved into a passion for creating seamless digital experiences.
+             I'm a React Frontend Developer passionate about building modern, responsive, and user-friendly web applications that deliver exceptional user experiences. 
+              I specialize in React.js, Next.js, JavaScript, TypeScript, Vite, Tailwind CSS, and Node.js, transforming ideas and UI/UX designs into fast, scalable, and maintainable digital products.
             </p>
             <p className="text-lg text-zinc-700 dark:text-zinc-300">
-              I specialize in HTML, CSS, React, Javascript/Typescript, Node.js, and modern web technologies. When I'm 
-              not coding, you can find me contributing to open-source projects, writing technical 
-              articles, or exploring new technologies.
+              My journey began with a curiosity about how the web works and has grown into a passion for creating high-performance applications using modern development practices. 
+              I'm committed to writing clean, reusable code, continuously learning new technologies, and building solutions that make a real impact.
             </p>
             <div className="flex flex-wrap gap-2 pt-4">
               {['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'Express.js', 'MongoDB', 'Git', 'GitHub', 'Figma', 'Netlify', 'Digital Marketing', 'SEO', 'SMO', 'Content writing', 'Website Audit'].map((skill) => (
