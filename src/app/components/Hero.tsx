@@ -13,11 +13,11 @@ export function Hero() {
           I'm <span className="text-blue-600 dark:text-blue-400">Shabeer Rehman</span>
           </h1>
           <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-400">
-            Frontend Developer & Digital Creator...!
+            React Frontend Developer
           </p>
           <p className="text-lg text-zinc-500 dark:text-zinc-500">
             I build exceptional digital experiences that make people's lives easier. 
-            Specialized in React, TypeScript, and modern web technologies.
+            Specialized in React.js, vite, TypeScript, Tailwind CSS and modern web technologies.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button asChild className="gap-2">
