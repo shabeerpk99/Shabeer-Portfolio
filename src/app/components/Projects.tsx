@@ -10,7 +10,7 @@ export function Projects() {
       description: 'Built a modern, responsive E-Commerce Store Frontend UI using React.js, JavaScript, Vite, and Tailwind CSS. The project features a clean, user-friendly interface, reusable components, responsive layouts, product listings, and modern UI design, following industry best practices and component-based architecture.',
       image: '/project/main-image.jpg',
       tags: ['Javascript', 'React', 'vite', 'Tailwindcss'],
-      github: 'https://github.com/shabeerpk99/Nexus',
+      github: 'https://github.com/shabeerpk99/Ecommerce-Store-Frontend',
       live: 'https://shabeer-store.vercel.app/'  
     },
     {
